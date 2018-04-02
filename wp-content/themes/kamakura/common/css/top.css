@@ -1,0 +1,639 @@
+/* ===============================================
+	▼トップページ用ＣＳＳ
+=============================================== */
+/* ━━━━ ▼トップメインイメージ ━━━━ */
+#topImg {
+	width: 1200px;
+	padding: 0 0 30px;
+	margin: 0 auto;
+}
+
+/* ━━━━ ▼地図 ━━━━ */
+#sec1{
+	position: relative;
+	padding: 25px 0 35px;
+}
+
+#sec1 h2{
+	text-align: center;
+}
+#sec1 .text{
+	font-size: 16px;
+	color: #545251;
+	width: 988px;
+	margin: 15px auto 0 auto;
+}
+#sec2{
+	padding: 25px 0 30px;
+	background: #fff;
+}
+
+#sec2 h2{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#sec2 .news_outer{
+	width: 994px;
+	margin: auto;
+}
+
+#sec2 .col3{
+	width: 33.33%;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#sec2 .col3 img{
+	max-width: 243px;
+}
+#sec2 .col3 > a{
+	display: block;
+	text-decoration: none;
+}
+#sec2 .col3.last{
+	padding-right: 0;
+	padding-left: 0;
+}
+#sec2 .col3 .info{
+	margin: auto;
+	max-width: 307px;
+	margin-top: 20px;
+}
+#sec2 .col3 .info span{
+	color: #fff;
+	padding: 5px 10px;
+	display: inline-block;
+	margin-bottom: 7px;
+}
+#sec2 .col3 .img{
+	text-align: center;
+}
+#sec2 .sub_ttl{
+	margin-top: 20px;
+}
+#sec2 .sub_ttl span{
+	padding: 3px 8px;
+	display: inline-block;
+	color: #fff;
+	font-weight: 500;
+}
+#sec2 .sub_ttl span.pink{
+	background: #b3496a;
+}
+#sec2 .sub_ttl span.blue{
+	background: #009adb;
+}
+#sec2 .sub_ttl span.green{
+	background: #81a340;
+}
+
+span.kitakamakura, span.kitakamakura_en{
+	background: #81a340;
+}
+
+span.kamakuraeki, span.kamakuraeki_en{
+	background: #b3496a;
+}
+
+span.yuigahama, span.yuigahama_en{
+	background: #009adb;
+}
+
+span.haseeki, span.haseeki_en{
+	background: #6b4992;
+}
+
+span.gokurakuji, span.gokurakuji_en{
+	background: #cd9c26;
+}
+
+#sec2 .col3 .date{
+	color: #545251;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+#sec2 .col3 .desc{
+	font-weight: bold;
+	color: #545251;
+	max-width: 243px;
+}
+#topMap {
+	text-align: center;
+	position: relative;
+	margin: 40px 0 50px;
+}
+#topMap .scale_map img{
+	max-width: 100%;
+}
+#topMap h2{
+	margin-bottom: 35px;
+}
+#topMap .btn {
+	position: absolute;
+	right: 5%;
+	bottom: 0;
+}
+
+/* ━━━━ ▼スケジュール ━━━━ */
+#topSchedule {
+	background: url(../images/top/bg_top_schedule.png) no-repeat 97% 90%, url(../images/top/top_schedule_bg.jpg) repeat;
+	margin: 0 0 35px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+#topSchedule .titleBox {
+	text-align: center;
+	background: url(../images/top/bg_ttl_schedule.png) no-repeat center 20px;
+}
+#topSchedule .titleBox h2 {
+	margin: 0 0 25px;
+}
+#topSchedule ul {
+	width: 994px;
+	padding: 35px 0 0;
+	margin: 0 auto;
+}
+#topSchedule ul li {
+	float: left;
+	width: 321px;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+/* #topSchedule ul li:nth-child(4n) {
+	margin-right: 0;
+} */
+#topSchedule ul li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+#topSchedule ul li a:hover>figure img {
+	transform: scale(1.15,1.15);
+	-webkit-transform:scale(1.15,1.15);
+	-moz-transform:scale(1.15,1.15);
+	-ms-transform:scale(1.15,1.15);
+	-o-transform:scale(1.15,1.15);
+}
+#topSchedule ul li h3 {
+	font-size: 110%;
+	padding-bottom: 5px;
+}
+#topSchedule ul li figure {
+	overflow: hidden;
+	position: relative;
+}
+#topSchedule ul li dl dt,
+#topSchedule ul li dl dd {
+	color: #fff;
+	padding: 5px 0;
+	margin-top: 5px;
+}
+#topSchedule ul li dl dt{
+	padding: 0;
+}
+#topSchedule ul li dl dt span {
+	display: block;
+	padding: 2px;
+}
+#topSchedule ul li dl dt .open {
+	background-color: #60c1bd;
+}
+#topSchedule ul li dl dt .close {
+	background-color: #595656;
+}
+
+#topSchedule ul li dl dt {
+	background-color: #60c0bd;
+}
+#topSchedule ul li dl dt.close{
+	background: #595757;
+}
+#topSchedule ul li dl dd {
+	background-color: #99bf9a;
+	font-size: 14px;
+}
+#topSchedule ul li dl dd i {
+	margin-right: .5em;
+}
+
+/* ━━━━ ▼ミュージアム ━━━━ */
+#topMuseum {
+	background: url(../img/bg_yama.png) no-repeat 40px 456px;
+	margin: 0 auto;
+}
+#topMuseum #topMuseumWrap {
+	width: 1018px;
+	margin: 0 auto;
+}
+#topMuseum .column2main h2 {
+	text-align: center;
+	padding-bottom: 35px
+}
+#topMuseum .musiumList li {
+	padding-bottom: 90px
+}
+#topMuseum .musiumList li h3 {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	background-color: rgba(148,32,77,0.2);
+	margin-bottom: 15px;
+}
+#topMuseum .musiumList li h3 span.icon {
+	display: table-cell;
+	width: 7%;
+	color: #fff;
+	font-size: 140%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #94204d;
+}
+#topMuseum .musiumList li h3 span.title {
+	display: table-cell;
+	font-size: 120%;
+	vertical-align: middle;
+	text-align: left;
+	padding: 5px 20px;
+}
+#topMuseum .musiumList li figure {
+	height: 295px;
+	overflow: hidden;
+	position: relative;
+}
+/*
+#topMuseum .musiumList li figure a > img {
+	-webkit-transition: all 2s ease-out;
+	-moz-transition: all 2s ease-out;
+	-ms-transition: all 2s ease-out;
+	-o-transition: all 2s ease-out;
+	transition: all 2s ease-out;
+}
+#topMuseum .musiumList li figure a:hover > img {
+	-webkit-transform:translateY(-100px);
+	-moz-transform:translateY(-100px);
+	-ms-transform:translateY(-100px);
+	-o-transform:translateY(-100px);
+	transform: translateY(-100px);
+}
+*/
+#topMuseum .musiumList li dl {
+	width: 100%;
+	margin: 18px 0;
+}
+#topMuseum .musiumList li dl dt {
+	float: right;
+	width: 207px;
+}
+#topMuseum .musiumList li dl dd {
+	float: left;
+	width: 440px;
+}
+#topMuseum .musiumList li dl dd h4 {
+	font-size: 140%;
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+#topMuseum .musiumList li dl dd .txt {
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+#topMuseum .musiumList li dl dd .route {
+	color: #94204d;
+	font-size: 150%;
+	font-weight: bold;
+}
+#topMuseum .musiumList li dl dd .route i {
+	font-size: 140%;
+	margin-right: 0.5em;
+}
+#topMuseum .musiumList li dl dd .route .fa-play {
+	font-size: 70%;
+	vertical-align: 10%;
+}
+#topMuseum .musiumList li dl dd .route .en {
+	font-size: 80%;
+	padding: 0 10px 0 0;
+}
+#topMuseum .musiumList li .btn a {
+	display: block;
+	color: #333;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 8px 0;
+}
+#topMuseum .musiumList li .btn a:hover {
+	color: #fff;
+	background-color: #94204d;
+}
+#sec3{
+	padding-top: 35px;
+}
+#sec3 h2{
+	text-align: center;
+}
+#sec3 h2 img{
+	max-width: 100%
+}
+
+#sec3 .text{
+	width: 988px;
+	margin: auto;
+	margin-top: 15px;
+	padding-bottom: 35px;
+}
+footer #footBunka1{
+	display: none;
+}
+.slick-dots{
+	bottom: 22px;
+}
+.slick-dots li button:before{
+	font-size: 25px;
+	color: #fff;
+	opacity: 1 !important;
+}
+.slick-dotted.slick-slider{
+	margin-bottom: 0;
+}
+.scalemap{
+	overflow: auto;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	-webkit-transform: scale(1.3);
+	   -moz-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	     -o-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+/* ===============================================
+	▼レスポンシブル用　解像度640以下ＣＳＳ
+=============================================== */
+@media screen and (min-width: 801px) and (max-width: 1200px){
+	#topImg{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1200px){
+	#topImg{
+		width: 100%;
+	}
+	#sec1 .text{
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#sec2 .news_outer{
+		width: 100%;
+	}
+	#sec2 .col3{
+		padding: 0 20px;
+	}
+	#sec2 .col3 .img img{
+		max-width: 100%;
+		height: auto;
+	}
+	#sec2 .col3.last{
+		padding: 0 20px;
+	}
+	#topMap .scale_map{
+		padding: 0 10px;
+	}
+	#topMap .scale_map img{
+		height: auto;
+	}
+	#topSchedule ul{
+		width: 100%;
+	}
+	#topSchedule ul li{
+		width: 33.33%;
+		margin-right: 0;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#sec3 .text{
+		width: 100%;
+		padding: 0 10px 35px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#topSchedule .titleBox .btn img{
+		width: 100%;
+		height: auto;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#topSchedule{
+		margin-bottom: 0;
+		padding-bottom: 20px;
+	}
+}
+@media screen and (max-width: 640px) {
+	#sec2 .col3 .info{
+		text-align: left;
+	}
+	#topSchedule ul li h3{
+		padding-bottom: 10px;
+	}
+	#container{
+		padding-bottom: 12%;
+	}
+	#sec2 .sub_ttl{
+		max-width: 234px;
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sec2 .col3 .date{
+		max-width: 307px;
+		margin: auto;
+		text-align: left;
+	}
+	#sec2 .col3 .desc{
+		max-width: 307px;
+		margin: auto;
+		text-align: left;
+	}
+	#sec3 .text{
+		width: 100%;
+		margin: auto;
+		margin-top: 15px;
+	}
+	/* ━━━━ ▼トップメインイメージ ━━━━ */
+	#sec1{
+		padding: 20px 0;
+	}
+	#sec1 .text{
+		width: 100%;
+		font-size: 18px;
+	}
+	#sec2 h2 img{
+		max-width: 80% !important;
+		width: auto !important;
+	}
+	#sec2 .news_outer{
+		width: 100%;
+	}
+	#sec2 .col3{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding-right: 0;
+		margin-top: 15px;
+	}
+	#sec2 .col3.first{
+		margin-top: 0;
+		padding-left: 0;
+		margin-bottom: 50px;
+		height: auto !important;
+	}
+	#sec2 .col3 .img img{
+		max-width: 100%
+	}
+	#topImg {
+		width: 100%;
+		padding: 0 0 0;
+		margin: 0 auto;
+	}
+	#topImg img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* ━━━━ ▼地図 ━━━━ */
+	.map_inner{
+		width: 100% !important;
+	}
+	#topMap {
+		text-align: center;
+		position: relative;
+		margin: 40px 0 50px;
+	}
+	#topMap h2 img{
+		max-width: 80%;
+	}
+	#topMap p img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+	#topMap .btn {
+		width: 25%;
+		position: absolute;
+		right: 5%;
+		bottom: 0;
+	}
+	#topMap .scale_map{
+		background: url(../images/top/map_bg.jpg) repeat;
+	}
+	/* ━━━━ ▼スケジュール ━━━━ */
+	#topSchedule {
+		margin: 0;
+		padding-bottom: 45px;
+	}
+	#topSchedule .titleBox {
+		text-align: center;
+		background-size: 100%;
+	}
+	#topSchedule .titleBox h2 {
+		padding: 0 10%;
+	}
+	#topSchedule .titleBox h2 img{
+		max-width: 70%;
+	}
+
+	#topSchedule .titleBox img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+	#topSchedule ul {
+		width: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#topSchedule ul li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#topSchedule ul li:nth-child(2n) {
+		margin-right: 0;
+	}
+	#topSchedule ul li figure img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* ━━━━ ▼ミュージアム ━━━━ */
+	#topMuseum {
+		background: none;
+		margin: 0 auto;
+	}
+	#topMuseum .column2side {
+    background: url(../img/bg_yama.png) no-repeat left 95%;
+		padding-bottom: 80px;
+	}
+	#topMuseum #topMuseumWrap {
+		width: 100%;
+	}
+	#topMuseum h2 {
+		padding: 0 10%;
+	}
+	#topMuseum h2 img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+	#topMuseum .musiumList li h3 span.icon {
+		display: table-cell;
+		width: 11%;
+		color: #fff;
+		font-size: 140%;
+		vertical-align: middle;
+		text-align: center;
+		background-color: #94204d;
+	}
+	#topMuseum .musiumList li figure {
+		height: auto;
+		overflow: hidden;
+		position: relative;
+	}
+	#topMuseum .musiumList li img {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+	}
+	#topMuseum .musiumList li dl dt {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	#topMuseum .musiumList li dl dd {
+		float: none;
+		width: 100%;
+		padding-top: 20px;
+	}
+	.slick-dots{
+		bottom: 10px !important;
+	}
+}

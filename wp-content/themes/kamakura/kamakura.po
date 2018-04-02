@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-04-02 11:12+0700\n"
+"PO-Revision-Date: 2018-04-02 11:26+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: content-course-right-detail-bottom.php:22 content-course-right-detail.php:21
+#: content-course-right.php:20
+msgid "テーマから探す"
+msgstr "Search by themes"
+
+#: content-course-right-detail-bottom.php:30 content-course-right-detail.php:29
+#: content-course-right.php:28
+msgid "エリアから探す"
+msgstr "Search by areas"
+
+#: content-course-right-detail-bottom.php:38 content-course-right-detail.php:37
+#: content-course-right.php:37
+msgid "人気のキーワードから探す"
+msgstr "Search by popular Keywords"
+
+#: content-course.php:74
+msgid "おすすめ<br class=\"show_400\">モデルコース"
+msgstr "Recommended <br class=\"show_400\">Walking Tours"
+
+#: content-course.php:98
+msgid "おすすめコース詳細へ"
+msgstr "Recommended<br/>Walking Tours"
+
+#: content-event.php:81 single-event.php:96
+msgid "詳細情報"
+msgstr "Information"
+
+#: content-event.php:100 single-event.php:115
+msgid "地図情報"
+msgstr "Map"
+
+#: content-index.php:124 content-index.php:125
+msgid "北鎌倉葉祥明美術館"
+msgstr ""
+"Kitakamakura Yoh Shomei \n"
+"Art Museum"
+
+#: content-index.php:127 content-index.php:137 content-index.php:147
+#: content-index.php:197
+msgid "本日 開館 9:00~18:00"
+msgstr "Open Today　9:00〜18:00"
+
+#: content-index.php:128
+msgid "北鎌倉駅から徒歩7分"
+msgstr "7 mi.-walk from Kita-Kamakura Stn"
+
+#: content-index.php:134 content-index.php:135
+msgid "神奈川県立近代美術館 鎌倉別館"
+msgstr ""
+"The Museum of Modern Art, \n"
+"Kamakura Annex"
+
+#: content-index.php:138
+msgid "鎌倉駅から徒歩15分"
+msgstr "15 min.-walk from Kamakura Stn"
+
+#: content-index.php:144 content-index.php:145
+msgid "鎌倉国宝館"
+msgstr "Kamakura Kokuhoukan Museum"
+
+#: content-index.php:148
+msgid "鎌倉駅から徒歩12分"
+msgstr "12 mi.-walk from Kamakura Stn"
+
+#: content-index.php:154 content-index.php:155
+msgid "鎌倉市川喜多映画記念館"
+msgstr ""
+"Kamakura City <br/>\n"
+"Kawakita Film Museum"
+
+#: content-index.php:157 content-index.php:167 content-index.php:187
+#: content-index.php:207
+msgid "本日 開館 9:00~17:00"
+msgstr "Open Today　9:00〜17:00"
+
+#: content-index.php:158
+msgid "鎌倉駅から徒歩8分"
+msgstr "8 min.-walk from Kamakura Stn"
+
+#: content-index.php:164 content-index.php:165
+msgid "鎌倉市鏑木清方記念美術館"
+msgstr ""
+"Kamakura City Kaburaki Kiyokata \n"
+"Memorial Art Museum"
+
+#: content-index.php:168 content-index.php:188
+msgid "鎌倉駅から徒歩7分"
+msgstr "7 min.-walk from Kamakura Stn"
+
+#: content-index.php:174 content-index.php:175
+msgid "鎌倉彫資料館"
+msgstr "Kamakurabori Museum"
+
+#: content-index.php:177
+msgid "閉じる"
+msgstr "Close Today"
+
+#: content-index.php:178
+msgid "鎌倉駅から徒歩5分"
+msgstr "5 min.-walk from Kamakura Stn"
+
+#: content-index.php:184 content-index.php:185
+msgid "鎌倉歴史文化交流館"
+msgstr "Kamakura Museum of<br/>History and Culture"
+
+#: content-index.php:194 content-index.php:195
+msgid "鎌倉文学館"
+msgstr "Kamakura Museum of Literature"
+
+#: content-index.php:198
+msgid "由比ヶ浜駅から徒歩7分"
+msgstr "7 min.-walk from Hase Stn"
+
+#: content-index.php:204 content-index.php:205
+msgid "観音ミュージアム"
+msgstr "Kannon Museum"
+
+#: content-index.php:208
+msgid "長谷駅から徒歩5分"
+msgstr "5 min.-walk from Hase Stn"
+
+#: content-index.php:225
+msgid ""
+"博物館、美術館、文学館などの文化施設で働く専門職員です。文化の発展と継承のた"
+"めに、資料の収集と保存、調査研究、展示、教育普及活動などの様々な活動を行って"
+"います。学芸員によるギャラリートークをおこなっている館もありますので、日時を"
+"ご確認の上、ぜひご来館ください。"
+msgstr ""
+"Kamakura is filled with museums that present the culture of this city from a "
+"rich range of perspectives. Here the curators of those museums recommend "
+"walking tours inspired by four themes: art, cultural heritage, architecture, "
+"and literature. These are suggestions from people who are serious Kamakura "
+"enthusiasts--and all the better for that! New discoveries await, even at "
+"places you may have visited again and again. Why not set out now on a "
+"slightly out-of-the-ordinary Kamakura journey?"
+
+#: content-listevent.php:27 pages/event.php:25
+msgid "イベント情報"
+msgstr "Event infomation"
+
+#: course_detail/even.php:66 course_detail/odd.php:68
+msgid "学芸員のおススめ！！"
+msgstr "Curator's recommends"
+
+#: footer.php:17
+msgid ""
+"平成28年　文化庁　地域の核となる美術館・歴史博物館支援事業<br>平成29年度　美"
+"術館・歴史博物館重点分野推進支援事業<br>\n"
+"© Copyright by Executive Committee, Project to Facilitate Access to Museums "
+"in Kamakura for Foreign Visitors 2016, 2017 all rights reserved.<br>\n"
+"Supported by the Agency for Cultural Affairs Government of Japan fiscal in "
+"the 2016, 2017"
+msgstr ""
+"平成28年　文化庁　地域の核となる美術館・歴史博物館支援事業<br>平成29年度　美"
+"術館・歴史博物館重点分野推進支援事業<br>\n"
+"© Copyright by Executive Committee, Project to Facilitate Access to Museums "
+"in Kamakura for Foreign Visitors 2016,2017 all rights reserved.<br>\n"
+"Supported by the Agency for Cultural Affairs Government of Japan fiscal "
+"2016, 2017"
+
+#: footer.php:23
+msgid "企画・制作"
+msgstr "Created by"
+
+#: footer.php:24
+msgid ""
+"鎌倉の美術館　外国人利用のための環境整備事業実行委員会（鎌倉市鏑木清方記念美"
+"術館・北鎌倉 葉祥明美術館・鎌倉文学館）"
+msgstr ""
+"Executive Committee, Project to Facilitate Access to Museums in Kamakura for "
+"Foreign Visitors.<br/>\n"
+"（Kamakura City Kaburaki Kiyokata Memorial Art Museum・Kitakamakura Yoh "
+"Shomei Art Museum・Kamakura Museum of Literature）"
+
+#: footer.php:27
+msgid "お問い合わせ"
+msgstr "Contact Us"
+
+#: footer.php:28
+msgid ""
+"鎌倉の美術館　外国人利用のための環境整備事業実行委員会<br>〔事務局〕〒"
+"248-0005 鎌倉市雪ノ下１−５−２５ 鎌倉市鏑木清方記念美術館内<br>〔TEL〕"
+"0467-23-6405〔FAX〕0467-23-6407<br/>〔Email] kaburaki-museum@kamakura-arts."
+"or.jp"
+msgstr ""
+"Kamakura City Kaburaki Kiyokata Memorial Art Museum.<br/>〔Office〕Project "
+"to Facilitate Access to Museums in Kamakura for Foreign Visitors. <br/"
+">〔TEL〕0467-23-6405〔FAX〕0467-23-6407〔Email〕 kaburaki-museum@kamakura-"
+"arts.or.jp"
+
+#: header.php:93 header.php:96
+msgid "本日休館"
+msgstr "Close Today"
+
+#: single-course.php:174
+msgid "出発"
+msgstr " Start"
+
+#: template-part/content-slide-text.php:12
+msgid ""
+"鎌倉には様々なミュージアムがあり、鎌倉の文化をそれぞれの専門を活かし発信して"
+"います。このサイトでは鎌倉のミュージアムの学芸員たちが、アート・文化財・建"
+"築・文学の４つのテーマで、ちょっとマニアックな鎌倉をご案内します。何度も訪れ"
+"た場所にも新たな発見があるかも！？さあ、ひと味違う鎌倉旅に出かけませんか。"
+msgstr ""
+"Kamakura is filled with museums that present the culture of this city from a "
+"rich range of perspectives. Here the curators of those museums recommend "
+"walking tours inspired by four themes: art, cultural heritage, architecture, "
+"and literature. These are suggestions from people who are serious Kamakura "
+"enthusiasts--and all the better for that!New discoveries await, even at "
+"places you may have visited again and again. Why not set out now on a "
+"slightly out-of-the-ordinary Kamakura journey?"
+
+#~ msgid ""
+#~ "博物館・美術館・科学館・水族館などの文化施設で働いている、専門知識を持った"
+#~ "職員。歴史ある作品・資料の研究、保存、修復、展示公開、教育普及などを行い、"
+#~ "文化と来館者の皆さまの架け橋となることを目指しています。学芸員による展示解"
+#~ "説をおこなっているミュージアムもありますので、日時をご確認の上、是非足を運"
+#~ "んでみてください。"
+#~ msgstr ""
+#~ "A curator is a specialist who works at a museum or other cultural "
+#~ "facility. Curatorsʼ work is quite varied. They collect and conserve "
+#~ "materials, carry out research, plan exhibitions, and develop educational "
+#~ "outreach programs. Some museums have curator talks, in which a curator "
+#~ "leads visitors in an in-depth exploration of an exhibition. Check the "
+#~ "museumʼ s schedule, come on over, and take part! "
+
+#~ msgid ""
+#~ "&copy; Copyright by 鎌倉の美術館　外国人利用のための環境整備事業実行委員会"
+#~ "2016,2017 all rights reserved.<br/>平成28年　文化庁　地域の核となる美術"
+#~ "館・歴史博物館支援事業<br>平成29年度　美術館・歴史博物館重点分野推進支援事"
+#~ "業"
+#~ msgstr ""
+#~ "&copy; Copyright by Project to Facilitate Access to Museums in Kamakura "
+#~ "for Foreign Visitors.2016,2017 all rights reserved.\n"
+#~ "  Supported by the Agency for Cultural Affairs Government of Japan in the "
+#~ "fiscal 2016, 2017"
+
+#~ msgid "鎌倉文学館　由比ヶ浜駅　徒歩７分"
+#~ msgstr "Kannon Museum"

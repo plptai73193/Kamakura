@@ -1,0 +1,382 @@
+/* ===============================================
+	▼レスポンシブル用　解像度640以下ＣＳＳ
+=============================================== */
+/* ━━━━ ▼大枠 ━━━━ */
+#container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* ━━━━ ▼小枠 ━━━━ */
+.inner {
+    width: 94%;
+}
+
+/* ━━━━ ▼カラム ━━━━ */
+.column2main {
+    float: none;
+    width: 100%;
+}
+.column2side {
+    float: none;
+    width: auto;
+    max-width: 326px;
+    margin: 0 auto;
+}
+.column2side img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.column2side .sideTitle {
+    padding-left: 8%;
+}
+.spMenuBox {
+    display: block;
+    padding-bottom: 20px;
+}
+
+/* ━━━━ ▼HEADER CSS設定 ━━━━ */
+header {
+    min-width: 1px;
+    background-size: 5%;
+}
+header .inner {
+    width: 100%;
+}
+header img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+header p {
+    float: left;
+    width: 20%;
+}
+header h1 {
+    float: left;
+    width: 60%;
+    padding: 5% 10px 0;
+    box-sizing: border-box;
+}
+header #spMenu {
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+#spGnavi {
+    width: 100%;
+    background-color: #60c0bd;
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+}
+#spGnavi img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#gnavi {
+    display: none;
+}
+
+/* ━━━━ ▼FOOTER 設定 ━━━━ */
+footer {
+    width: 100%;
+    min-width: 1px;
+    height: auto;
+    background-size: 5%;
+    position: relative;
+}
+footer img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+footer #footWrap {
+    padding: 2.2% 0 0;
+}
+footer #footCont {
+    height: auto;
+    padding-bottom: 20px;
+}
+footer .inner {
+    width: 94%;
+}
+footer #footFuki {
+    width: 100px;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+footer #footLogo {
+    width: 100%;
+    padding: 20px 0 5px;
+}
+footer #footLogo dt {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+footer #footLogo dd {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+footer #footBunka {
+    width: 30px;
+    position: absolute;
+    top: 6%;
+    right: 0;
+}
+
+/* -----------------------------------------
+    ▼ おすすめモデルコース
+----------------------------------------- */
+#coursePage #container {
+    padding-bottom: 0;
+}
+#coursePage #container img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#coursePage #titleArea {
+    min-height: 1px;
+}
+#coursePage #titleArea #mainTitle {
+    padding: 5% 0;
+}
+#coursePage #titleArea #mainTitle h1 {
+    padding: 0 28% 0 0;
+}
+#coursePage #titleArea .text {
+    text-align: center;
+    padding: 20px 28% 0 0;
+}
+#coursePage #titleArea figure {
+    width: 25%;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    vertical-align: top;
+}
+#coursePage .pageLink {
+    width: 94%;
+    margin: 0 auto;
+}
+
+/* ━━━━ ▼地図 ━━━━ */
+#coursePage #mainMap .btn {
+    width: 25%;
+}
+
+/* ━━━━ ▼ルート ━━━━ */
+#coursePage .courseRoute .crCont {
+    width: 100%;
+}
+#coursePage .courseRoute .yamaBg {
+    background: none;
+}
+#coursePage .courseRoute .crCont h2 {
+    margin-left: 0;
+}
+#coursePage .courseRoute .crCont .inner {
+    width: 94%;
+}
+#coursePage .courseRoute .crCont .column2side {
+    display: none;
+}
+#coursePage .courseList li dl.time,
+#coursePage .courseList li dl.info,
+#coursePage .courseList li dl.info dd dl,
+#coursePage .courseList li dl.info02,
+#coursePage .courseList li dl.info03,
+#coursePage .courseList li dl.info03 dl {
+    padding-bottom: 15px;
+}
+#coursePage .courseList li dl.time dt {
+    width: 30%;
+}
+#coursePage .courseList li dl.time dd {
+    font-size: 120%;
+    padding-left: 10px;
+}
+#coursePage .courseList li dl.info,
+#coursePage .courseList li dl.info dt,
+#coursePage .courseList li dl.info dd {
+    display: block;
+    width: 100%;
+}
+#coursePage .courseList li dl.info dt {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#coursePage #container .courseList li dl.info dt img {
+    width: 100%;
+}
+#coursePage .courseList li dl figure figcaption {
+    width: 70px;
+    left: -10px;
+    bottom: -15px;
+}
+
+#coursePage .courseList li dl.info dd dl dd {
+    display: table-cell;
+    vertical-align: top;
+    text-align: right;
+    width: 40%;
+}
+#coursePage .courseList li dl.info dd h3 {
+    font-size: 120%;
+}
+#coursePage .courseList li dl.info02 dd,
+#coursePage .courseList li dl.info03 dd {
+    font-size: 120%;
+}
+
+/* ━━━━ ▼ルート地図 ━━━━ */
+#coursePage .courseMap .inner {
+    width: 94%;
+}
+#coursePage .courseMap .mapTitle {
+    padding-top: 20%;
+}
+#coursePage .courseMap .mapTitle p {
+    width: 40%;
+    position: absolute;
+    z-index: 100;
+    left: 30%;
+    top: -40%;
+}
+#coursePage .courseMap .mapTitle h4 {
+    font-size: 160%;
+    padding-bottom: 20px;
+}
+#coursePage .courseMap .gmapWrap {
+    padding: 15px;
+    position: relative;
+}
+
+#coursePage .courseMap .gmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#coursePage .courseMap .gmap iframe,
+#coursePage .courseMap .gmap object,
+#coursePage .courseMap .gmap embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ━━━━ ▼周辺の立ち寄りスポット ━━━━ */
+#coursePage #spotArea {
+    background: url(../../images/course/bg_route.gif) repeat left top;
+    padding: 50px 0 80px;
+    margin-bottom: -10px;
+
+}
+#coursePage #spotArea .inner {
+    width: 94%;
+    overflow: hidden;
+}
+#coursePage #spotArea h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 -20%;
+}
+#coursePage #spotArea ul li {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* -----------------------------------------
+    ▼ スケジュール
+----------------------------------------- */
+#schedulePage #container {
+    background: none;
+    padding-top: 0;
+}
+#schedulePage #container .inner {
+    width: 100%;
+}
+#scheduleWrap {
+    background: none;
+    margin: 0 auto;
+}
+#scheduleCont {
+    width: 100%;
+}
+#scheduleCont .column2main {
+    width: auto;
+    background: url(../../images/schedule/bg_schedule.gif) repeat left top;
+    padding: 38px 3% 50px;
+}
+#scheduleCont .column2side {
+    background: url(../img/bg_yama.png) no-repeat left 95%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 80px;
+}
+#scheduleCont h1 {
+    padding: 0 10%;
+}
+#scheduleCont h1 img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#gCalWrap {
+    max-width: 960px; /* 最大幅 */
+    min-width: 200px; /* 最小幅 */
+    margin: 2.0833% auto;
+}
+#gCalBox {
+    position: relative;
+    padding-bottom: 100%; /* 縦横比 */
+    height: 0;
+}
+#gCalBox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+#scheduleCont #exhibition {
+    overflow: hidden;
+}
+#scheduleCont #exhibition h2 {
+    position: relative;
+    margin: 0 -28%;
+}
+#scheduleCont #exhibition h2 img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+#scheduleCont #exhibition ul li {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin: 0 10% 50px !important;
+}
+#scheduleCont #exhibition ul li figure img {
+    width: auto;
+    width: 100%;
+    height: auto;
+}

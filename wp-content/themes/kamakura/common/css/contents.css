@@ -1,0 +1,1900 @@
+@charset "utf-8";
+/* ===============================================
+	▼各CSS設定
+		+ おすすめモデルコース
+		+ スケジュール
+
+=============================================== */
+/* -----------------------------------------
+	▼ おすすめモデルコース
+
+----------------------------------------- */
+.max100{
+	max-width: 100%
+}
+.hide_767{
+	display: block !important;
+}
+.show_767{
+	display: none !important;
+}
+.show_400{
+	display: none;
+}
+.fn{
+	float: none !important;
+}
+.m10t{
+	margin-top: 10px !important;
+	margin-left: 20px;
+}
+.spotttl{
+	font-size: 31px;
+	color: #60C0BD;
+	font-family: "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+}
+.pagination{
+	padding: 20px 0 0;
+	margin-left: 20px;
+}
+.pagination .page-numbers{
+	padding: 5px;
+	border: 1px solid #BFBFBF;
+	text-decoration: none;
+	color: #000;
+}
+.pagination .page-numbers:hover{
+	color: #B3496A;
+}
+.pagination .page-numbers.current{
+	font-weight: bold;
+	color: #000;
+	border: 1px solid #000;
+}
+.pagination .page-numbers.current:hover{
+	color: #000;
+}
+.pagination .page-numbers.next, .pagination .page-numbers.next {
+}
+
+.link_br, .link_br2{
+	display: none !important;
+}
+#coursePage #container, #coursedetailPage #container {
+	background: #fff;
+	padding-top: 40px;
+	padding-bottom: 176px;
+}
+#coursePage footer{
+	background: #fff;
+}
+#coursePage #sec1{
+
+}
+#coursePage #sec1 h2{
+	background: #60C0BD;
+	padding: 8px 12px;
+	font-size: 25px;
+	color: #fff;
+	border-radius: 20px;
+	font-weight: bold;
+}
+#coursePage #sec1 h2 span{
+	font-size: 17px;
+	font-weight: normal;
+}
+#coursePage .left{
+	width: 940px;
+	float: left;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	        padding-right: 50px;
+}
+#coursePage .right{
+	float: right;
+	width: 260px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .right h2{
+	background: none !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+	font-size: 20px !important;
+	font-weight: normal !important;
+	color: #60C0BD !important;
+	border-bottom: 2px dashed #666;
+}
+#coursePage .right ul{
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+#coursePage .right ul li{
+	font-size: 22px;
+	padding-left: 40px;
+	padding-bottom: 18px;
+	background: url('../images/course/play_btn.png') top 5px left 5px no-repeat;
+}
+#coursePage .right ul li a{
+	text-decoration: none;
+	color: #2E2624;
+}
+#coursePage .right ul li a:hover,#coursePage .right ul li a:focus,#coursePage .right ul li a:active,#coursePage .right ul li a:visited{
+	text-decoration: none;
+	color: #2E2624;
+}
+#coursePage .right .tag .tag1 a,#coursePage .right .tag .tag1 a:hover,#coursePage .right .tag .tag1 a:focus,#coursePage .right .tag .tag1 a:active,#coursePage .right .tag .tag1 a:visited{
+	text-decoration: none;
+	color: #2E2624;
+}
+#coursePage .right .tag .tag1{
+	margin-top: 20px;
+	padding: 8px 15px 8px 35px;
+	display: inline-block;
+	border: 1px solid #2E2624 ;
+	border-radius: 8px;
+	background: url('../images/course/tag.png') center left 3px no-repeat;;
+}
+#coursePage #sec1 .left .sub_content{
+	margin-top: 43px;
+}
+#coursePage #sec1 .left .sub_content .fl{
+	float: left;
+	width: 50%;
+}
+#coursePage #sec1 .left .sub_content .fr{
+	width: 50%;
+	float: right;
+}
+#coursePage #sec1 .left .sub_content .fl img{
+	max-width: 100%;
+	height: auto;
+}
+#coursePage #sec1 .left .sub_content .fr .list_ttl{
+	margin-left: 17px;
+}
+#coursePage #sec1 .left .sub_content .fr .list_ttl > li{
+	padding-left: 25px;
+	position: relative;
+}
+#coursePage #sec1 .left .sub_content .fr .list_ttl > li:after{
+	content: '';
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 37px;
+	border-top: 1px dashed #666;
+}
+#coursePage #sec1 .left .sub_content .fr .list_ttl > li span{
+	font-size: 25px;
+	color: #000;
+}
+#coursePage #sec1 .left .sub_content .fr .list_ttl > li ul li{
+	background: url('../images/course/down_chevron.png') center left 10% no-repeat;
+	padding: 5px 0 5px 60px;
+	color: #666;
+}
+#coursePage #sec1 .map{
+	margin-top: 70px;
+	position: relative;
+	border-bottom: 1px dotted #595757;
+	padding-bottom: 39px;
+}
+#coursePage #sec1 .map .ova img{
+	max-width: 100%;
+}
+#coursePage #sec1 .map .btn{
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+}
+#coursePage #sec2 h2{
+	padding: 8% 0 3% 0;
+	font-size: 32px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-align-items: center;
+	background: url('../images/course/ttl_line.png') left bottom no-repeat;
+}
+#coursePage #sec2 h2 img{
+	margin-right: 40px;
+}
+#coursePage #sec2 h2 img{
+	max-width: 100%;
+}
+#coursePage #sec2 .text{
+	font-size: 21px;
+	padding-left: 45px;
+	padding-top: 18px;
+	padding-bottom: 55px;
+	border-bottom: 1px dotted #595757;
+}
+#coursePage #sec3{
+	padding-top: 75px;
+}
+#coursePage #sec3 .fl{
+	float: left;
+	width: 50%;
+}
+#coursePage #sec3 .fr{
+	float: right;
+	width: 50%;
+	padding-left: 24px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage #sec3 .fr h3{
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 2px dotted #666;
+}
+#coursePage #sec3 .fr .desc{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#coursePage #sec3 .fr .note{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#coursePage #sec3 .note span{
+	display: inline-block;
+}
+#coursePage #sec3 .note span + span{
+	/* margin-left: 10px; */
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#coursePage #sec3 .kitakamakura, #coursePage #sec3 .kitakamakura_en{
+	padding: 5px 10px;
+	background: #81a340;
+	color: #fff;
+}
+#coursePage #sec3 .gokurakuji, #coursePage #sec3 .gokurakuji_en{
+	padding: 5px 10px;
+	background: #cd9c26;
+	color: #fff;
+}
+#coursePage #sec3 .yuigahama, #coursePage #sec3 .yuigahama_en{
+	padding: 5px 10px;
+	background: #009adb;
+	color: #fff;
+}
+#coursePage #sec3 .kamakuraeki, #coursePage #sec3 .kamakuraeki_en{
+	padding: 5px 10px;
+	background: #b3496a;
+	color: #fff;
+}
+#coursePage #sec3 .haseeki, #coursePage #sec3 .haseeki_en{
+	padding: 5px 10px;
+	background:  #6b4992;
+	color: #fff;
+}
+
+#coursePage #sec3 .text{
+	font-size: 16px;
+	color: #545251;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage #sec3 .text2{
+	color: #545251;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+#coursePage .chat_content h3{
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px dotted #666;
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+#coursePage .chat_content h3 img{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#coursePage .chat_content .cb1, #coursePage .chat_content .cb2{
+	margin-bottom: 15px;
+}
+
+#coursePage .chat_content .girl{
+	padding-left: 24px;
+	float: left;
+	width: 21%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .chat_content .girl img{
+	max-width: 100%
+}
+#coursePage .chat_content .chatbox{
+	padding: 15px 15px 15px 20px;
+	width: 79%;
+	font-size: 14px;
+	float: right;
+	position: relative;
+	border-radius: 10px;
+	border: 2px solid #666;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-top: 6%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .chat_content .chatbox:before{
+	content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -15px;
+  top: 20px;
+  border-right: 15px solid #666;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+#coursePage .chat_content .chatbox:after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -12px;
+  top: 20px;
+  border-right: 15px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+#coursePage .chat_content .ttl{
+	margin-bottom: -11px;
+	margin-left: 20px;
+}
+#coursePage .chat_content .ttl span{
+	background: #E0A9AC;
+	padding: 8px 15px;
+	border-radius: 20px;
+	color: #fff;
+	position: relative;
+	z-index: 111;
+}
+#coursePage .chat_content .chatbox2{
+	position: relative;
+	border-radius: 10px;
+	border: 2px solid #666;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 79%;
+	font-size: 14px;
+	float: left;
+	padding: 28px 50px 15px 15px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .chat_content .chatbox2:before{
+	content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -15px;
+  top: 20px;
+  border-left: 15px solid #666;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+#coursePage .chat_content .chatbox2:after{
+	content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -12px;
+  top: 20px;
+  border-left: 15px solid #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+#coursePage .chat_content .lady{
+	width: 21%;
+	float: right;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .chat_content .lady img{
+	max-width: 117px !important;
+	height: auto !important;
+}
+#coursePage .sep{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #60C0BD;
+	position: relative;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+#coursePage .sep span{
+	background: #fff;
+	position: relative;
+	z-index: 111;
+	padding: 0 10px;
+}
+#coursePage .sep img{
+	margin-right: 20px;
+}
+#coursePage .sep:after{
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 40%;
+	border: 2px dotted #acabab;
+}
+#coursePage .sep:before{
+	content: '';
+	position: absolute;
+	top: 15px;
+	right: 0;
+	width: 40%;
+	border: 2px dotted #acabab;
+}
+#coursePage .r{
+	width: 50%;
+	float: right;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .l{
+	padding-right: 24px;
+	width: 50%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursePage .l h3{
+	color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px dotted #666;
+}
+#coursePage .l .desc{
+	font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#coursePage .l .note{
+	padding: 15px 0;
+}
+#coursePage .l .note1{
+	background: #009ADB;
+	padding: 5px 10px;
+	color: #fff;
+}
+
+
+#coursePage #titleArea {
+	min-height: 200px;
+}
+#coursePage #titleArea #mainTitle {
+	background-color: #fff;
+	-moz-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	-webkit-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	padding: 28px 0;
+}
+#coursePage #titleArea #mainTitle h1 {
+	padding-left: 120px;
+}
+#coursePage #titleArea .text {
+	text-align: center;
+	padding: 28px 300px 0 120px;
+}
+#coursePage #titleArea figure {
+	width: 228px;
+	position: absolute;
+	top: -40px;
+	right: 50px;
+}
+
+/* ━━━━ ▼地図 ━━━━ */
+#coursePage #mainMap {
+	position: relative;
+	margin: 20px 0 40px;
+}
+#coursePage #mainMap .inner p {
+	text-align: center;
+}
+#coursePage #mainMap .btn {
+	position: absolute;
+	right: 5%;
+	bottom: 0;
+}
+
+/* ━━━━ ▼ルート ━━━━ */
+#coursePage .courseRoute {
+	padding: 50px 0;
+	background: url(../../images/course/bg_route.gif) repeat left top;
+}
+#coursePage .courseRoute .crCont {
+	width: 1200px;
+	margin: 0 auto;
+}
+#coursePage .courseRoute .yamaBg {
+	background: url(../img/bg_yama.png) no-repeat 40px 456px;
+}
+#coursePage .courseRoute .crCont h2 {
+	text-align: left;
+	padding-bottom: 20px;
+	margin-top: -35px;
+	margin-left: -50px;
+}
+#coursePage .courseRoute .crCont .inner {
+	width: 1018px;
+}
+#coursePage .courseList li {
+	padding-bottom: 30px;
+}
+#coursePage .courseList li dl.time,
+#coursePage .courseList li dl.info,
+#coursePage .courseList li dl.info dd dl,
+#coursePage .courseList li dl.info02,
+#coursePage .courseList li dl.info03,
+#coursePage .courseList li dl.info03 dl {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	padding-bottom: 30px;
+}
+#coursePage .courseList li dl.time dt {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	width: 34%;
+}
+#coursePage .courseList li dl.time dd {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 160%;
+	font-weight: bold;
+}
+#coursePage .courseList li dl.time dd i {
+	margin-right: 1em;
+}
+#coursePage .courseList li dl.time dd span {
+	margin-left: 1em;
+}
+#coursePage .courseList li dl.info dt {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+	width: 53%;
+	position: relative;
+}
+#coursePage .courseList li dl figure {
+	position: relative;
+}
+#coursePage .courseList li dl figure figcaption {
+	width: 100px;
+	position: absolute;
+	left: -25px;
+	bottom: -15px;
+}
+#coursePage .courseList li dl.info dd {
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+}
+#coursePage .courseList li dl.info dd dl {
+	padding-top: 20px;
+}
+#coursePage .courseList li dl.info dd dl dt {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-right: 10px;
+}
+#coursePage .courseList li dl.info dd dl dt span.name {
+	display: block;
+	font-size: 110%;
+	padding-top: 5px;
+}
+#coursePage .courseList li dl.info dd dl dd {
+	display: table-cell;
+	vertical-align: top;
+	text-align: right;
+	width: 122px;
+}
+#coursePage .courseList li dl.info dd h3 {
+	font-size: 130%;
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#coursePage .courseList li dl.info dd p.btn a {
+	display: block;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 0;
+}
+#coursePage .courseList li dl.info dd p.btn02 {
+	padding-bottom: 20px;
+}
+#coursePage .courseList li dl.info dd p.btn02 a {
+	display: block;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 20px 8px 20px;
+	position: relative;
+}
+#coursePage .courseList li dl.info dd p.btn02 a i {
+	position: absolute;
+	font-size: 0.5em;
+	top: 50%;
+	right: 10px;
+	margin-top: -0.5em;
+}
+#coursePage .courseList li dl.info02 dt {
+	display: table-cell;
+	vertical-align: top;
+	text-align: right;
+	width: 46%;
+}
+#coursePage .courseList li dl.info02 dt figure,
+#coursePage .courseList li dl.info03 dt figure {
+	display: inline-block;
+	background-color: #fff;
+	-moz-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	-webkit-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	padding: 5px;
+}
+#coursePage .courseList li dl.info02 dt.arrow,
+#coursePage .courseList li dl.info03 dt.arrow {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 12%;
+}
+#coursePage .courseList li dl.info02 dt.arrow i,
+#coursePage .courseList li dl.info03 dt.arrow i {
+	display: block;
+	font-size: 160%;
+	line-height: 14px;
+}
+#coursePage .courseList li dl.info02 dd {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 160%;
+	font-weight: bold;
+}
+#coursePage .courseList li dl.info02 dd i,
+#coursePage .courseList li dl.info03 dd i {
+	font-size: 160%;
+	margin-left: .3em;
+	margin-right: .3em;
+}
+#coursePage .courseList li dl.info03 dt {
+	display: table-cell;
+	vertical-align: top;
+	text-align: right;
+	width: 46%;
+}
+#coursePage .courseList li dl.info03 dd {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 160%;
+	font-weight: bold;
+	padding-left: 15px;
+}
+#coursePage .courseList li dl.info03 dd dt.arrow {
+	width: 10%;
+}
+#coursePage .courseList li dl.info03 dt.arrow i {
+	font-size: 100%;
+}
+#coursePage .courseList li dl.info03 dd dl {
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+#coursePage .courseList li dl.info03 dd dl dd {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/* 赤色 */
+#coursePage .listRed li dl.time dd,
+#coursePage .listRed li dl.info dd h3,
+#coursePage .listRed li dl.info02 dt.arrow,
+#coursePage .listRed li dl.info03 dt.arrow,
+#coursePage .listRed li dl.info02 dd,
+#coursePage .listRed li dl.info03 dd {
+	color: #92214d;
+}
+#coursePage .listRed li dl.info dd p.btn a,
+#coursePage .listRed li dl.info dd p.btn02 a {
+	color: #fff;
+	background-color: #92214d;
+}
+#coursePage .listRed li dl.info dd p.btn a:hover,
+#coursePage .listRed li dl.info dd p.btn02 a:hover {
+	color: #92214d;
+	background-color: #fff;
+}
+
+/* 金色 */
+#coursePage .listGold li dl.time dd,
+#coursePage .listGold li dl.info dd h3,
+#coursePage .listGold li dl.info02 dt.arrow,
+#coursePage .listGold li dl.info03 dt.arrow,
+#coursePage .listGold li dl.info02 dd,
+#coursePage .listGold li dl.info03 dd {
+	color: #a0902e;
+}
+#coursePage .listGold li dl.info dd p.btn a,
+#coursePage .listGold li dl.info dd p.btn02 a {
+	color: #fff;
+	background-color: #a0902e;
+}
+#coursePage .listGold li dl.info dd p.btn a:hover,
+#coursePage .listGold li dl.info dd p.btn02 a:hover {
+	color: #a0902e;
+	background-color: #fff;
+}
+
+/* 緑色 */
+#coursePage .listGreen li dl.time dd,
+#coursePage .listGreen li dl.info dd h3,
+#coursePage .listGreen li dl.info02 dt.arrow,
+#coursePage .listGreen li dl.info03 dt.arrow,
+#coursePage .listGreen li dl.info02 dd,
+#coursePage .listGreen li dl.info03 dd {
+	color: #60a075;
+}
+#coursePage .listGreen li dl.info dd p.btn a,
+#coursePage .listGreen li dl.info dd p.btn02 a {
+	color: #fff;
+	background-color: #60a075;
+}
+#coursePage .listGreen li dl.info dd p.btn a:hover,
+#coursePage .listGreen li dl.info dd p.btn02 a:hover {
+	color: #60a075;
+	background-color: #fff;
+}
+
+/* ━━━━ ▼ルート地図 ━━━━ */
+#coursePage .courseMap {
+	padding: 30px 0;
+}
+#coursePage .courseMap .inner {
+}
+#coursePage .courseMap .mapTitle {
+	text-align: center;
+	position: relative;
+	padding-top: 80px;
+}
+#coursePage .courseMap .mapTitle p {
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	top: -100px;
+}
+#coursePage .courseMap .mapTitle h4 {
+	font-size: 180%;
+	font-weight: bold;
+	padding: 30px 0;
+}
+#coursePage .courseMap .gmapWrap {
+	padding: 15px;
+	position: relative;
+}
+#coursePage .courseMap .gmap {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+#coursePage .courseMap .gmap iframe,
+#coursePage .courseMap .gmap object,
+#coursePage .courseMap .gmap embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#coursePage .courseMap .text {
+	text-align: center;
+	padding: 30px 0 0;
+}
+
+/* 赤色 */
+#coursePage .courseMap .mapRed .gmapWrap {
+	background-color: #92214d;
+}
+/* 金色 */
+#coursePage .courseMap .mapGold .gmapWrap {
+	background-color: #a0902e;
+}
+/* 緑色 */
+#coursePage .courseMap .mapGreen .gmapWrap {
+	background-color: #60a075;
+}
+
+/* ━━━━ ▼周辺の立ち寄りスポット ━━━━ */
+#coursePage #spotArea {
+	background: url(../../images/course/bg_route.gif) repeat left top;
+	padding: 50px 0 150px;
+}
+#coursePage #spotArea .inner {
+	width: 670px;
+}
+#coursePage #spotArea h2 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+#coursePage #spotArea ul {
+	padding-bottom: 10px;
+}
+#coursePage #spotArea ul li {
+	float: left;
+	width: 214px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+#coursePage #spotArea ul li:nth-child(3n) {
+	margin-right: 0;
+}
+#coursePage #spotArea .btn {
+	width: 214px;
+	margin: 0 auto;
+}
+#coursePage #spotArea .btn a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	background-color: #60c0bd;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 1px;
+	-webkit-transition: all 300ms ease;
+	        transition: all 300ms ease;
+			-ms-transition: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	        transform: translate3d(0, 0, 0);
+			-ms-transform: none;
+}
+#coursePage #spotArea .btn a:hover {
+	background-color: #08aba6;
+}
+#coursePage #spotArea .btn a > span {
+	border: 1px solid #9cd7d6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	box-sizing: border-box;
+}
+#coursePage #spotArea .btn a > span span,
+#coursePage #spotArea .btn i {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+#coursePage #spotArea .btn i {
+	width: 16%;
+	font-size: 140%;
+	border-right: 1px solid #9cd7d6;
+}
+#coursedetailPage #sec1 .left{
+	float: left;
+	width: 940px;
+	padding-right: 40px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursedetailPage #sec1 h2{
+	font-weight: bold;
+	font-size: 31px;
+	padding-bottom: 10px;
+	padding-left: 22px;
+	background: url(../images/course/h2_line.png) repeat-x left bottom;
+}
+#coursedetailPage #sec1 h2 span{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+#coursedetailPage #sec1 .h3{
+	margin-top: 45px;
+	font-size: 29px;
+	border-bottom: 1px dashed #666666;
+}
+#coursedetailPage #sec1 .box{
+	margin-top: 50px;
+	display: table;
+	position: relative;
+	padding-bottom: 55px;
+	border-bottom: 1px dashed #666666;
+}
+#coursedetailPage #sec1 .img{
+	width: 50%;
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 25px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursedetailPage #sec1 .img img{
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+#coursedetailPage #sec1 .detail{
+	width: 50%;
+	display: table-cell;
+	position: relative;
+}
+#coursedetailPage #sec1 .detail h3{
+	font-size: 27px;
+	color: #60C0BD;
+}
+#coursedetailPage #sec1 .detail .text{
+	font-size: 16px;
+	color: #545251;
+	margin-top: 13px;
+}
+#coursedetailPage #sec1 .detail .btn{
+	margin-top: 14%;
+}
+#coursedetailPage #sec1 .detail .btn a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background-image: -webkit-linear-gradient(#e4a088,#e4b2b5);
+	background-image:    -moz-linear-gradient(#e4a088,#e4b2b5);
+	background-image:     -ms-linear-gradient(#e4a088,#e4b2b5);
+	background-image:      -o-linear-gradient(#e4a088,#e4b2b5);
+	background-image:         linear-gradient(#e4a088,#e4b2b5);
+	padding: 8px 50px;
+	font-size: 22px;
+	border-radius: 10px;
+	position: relative;
+}
+#coursedetailPage #sec1 .detail .btn a span.fa{
+	margin-right: 10px;
+}
+#coursedetailPage .right{
+	float: right;
+	padding-top: 68px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#coursedetailPage footer{
+	background: #fff;
+}
+/* -----------------------------------------
+	▼ スケジュール
+----------------------------------------- */
+#schedulePage #container {
+	background: #fff;
+	padding-top: 38px;
+	padding-bottom: 70px;
+}
+#scheduleWrap {
+	background: url(../img/bg_yama.png) no-repeat 40px 456px;
+	margin: 0 auto;
+}
+#scheduleCont {
+	width: 1018px;
+	margin: 0 auto;
+}
+#scheduleCont h1 {
+	text-align: center;
+}
+#scheduleCont #scheduleBoxWrap {
+	background: url(../../images/schedule/bg_gara.png) no-repeat 98% top;
+	padding-top: 30px;
+	margin: auto;
+}
+#scheduleCont #scheduleBox {
+	background-color: #fff;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	-moz-box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 10px rgba(0,0,0,.2);
+	padding: 5px;
+}
+#scheduleCont #scheduleBox #scheduleInner {
+	background-color: #fff;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	-moz-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	-webkit-box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	box-shadow: 2px 1px 5px rgba(0,0,0,.2);
+	padding: 20px;
+	overflow: hidden;
+}
+#scheduleCont #exhibition h2 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+#scheduleCont #exhibition ul li {
+	float: left;
+	width: 208px;
+	margin-right: 18px;
+	margin-bottom: 50px;
+}
+#scheduleCont #exhibition ul li:nth-child(3n) {
+	margin-right: 0;
+}
+#scheduleCont #exhibition ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+#scheduleCont #exhibition ul li a:hover>figure img {
+	transform: scale(1.15,1.15);
+	-webkit-transform:scale(1.15,1.15);
+	-moz-transform:scale(1.15,1.15);
+	-ms-transform:scale(1.15,1.15);
+	-o-transform:scale(1.15,1.15);
+}
+#scheduleCont #exhibition ul li figure {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 10px;
+}
+#scheduleCont #exhibition ul li .btn {
+	color: #fff;
+	background-color: #60c0bd;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 1px;
+	-webkit-transition: all 300ms ease;
+	        transition: all 300ms ease;
+			-ms-transition: none;
+	-webkit-transform: translate3d(0, 0, 0);
+	        transform: translate3d(0, 0, 0);
+			-ms-transform: none;
+}
+#scheduleCont #exhibition ul li a:hover .btn {
+	background-color: #08aba6;
+}
+#scheduleCont #exhibition ul li .btn p {
+	border: 1px solid #9cd7d6;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	box-sizing: border-box;
+}
+#scheduleCont #exhibition ul li .btn p span,
+#scheduleCont #exhibition ul li .btn p i {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+#scheduleCont #exhibition ul li .btn p i {
+	width: 16%;
+	font-size: 50%;
+	border-left: 1px solid #9cd7d6;
+}
+#schedulePage footer{
+	background: #fff;
+}
+#eventPage{
+
+}
+#eventPage #container{
+	background: #fff;
+}
+#eventPage a, #eventPage a:hover, #eventPage a:active, #eventPage a:focus, #eventPage a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+#eventPage #sec1{
+	padding-top: 57px;
+}
+#eventPage #sec1 .tag .tag1{
+	color: #fff;
+	padding: 3px 5px;
+	margin-right: 10px;
+}
+#eventPage #sec1 .tag span + span{
+	margin-right: 10px;
+}
+#eventPage #sec1 .tag .tag2{
+	color: #fff;
+	padding: 3px 5px;
+}
+#eventPage #sec1 .tag span{
+	display: inline-block;
+	margin-bottom: 8px;
+}
+#eventPage #sec1 .tag .kitakamakura, #eventPage #sec1 .tag .kitakamakura_en{
+	background: #81a340;
+}
+
+#eventPage #sec1 .tag .kamakuraeki, #eventPage #sec1 .tag .kamakuraeki_en{
+	background: #b3496a;
+}
+
+#eventPage #sec1 .tag .yuigahama, #eventPage #sec1 .tag .yuigahama_en{
+	background: #009adb;
+}
+
+#eventPage #sec1 .tag .haseeki, #eventPage #sec1 .tag .haseeki_en{
+	background: #6b4992;
+}
+
+#eventPage #sec1 .tag .gokurakuji, #eventPage #sec1 .tag .gokurakuji_en{
+	background: #cd9c26;
+}
+#eventPage #sec1 .tag.fl{
+	float: left;
+}
+#eventPage #sec1 h2{
+	font-size: 40px;
+	font-weight: normal;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px dashed #545251;
+}
+#eventPage #sec1 .w50l {
+	width: 50%;
+	float: left;
+	padding-right: 40px;
+	padding-left: 50px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#eventPage #sec1 .w50r{
+	width: 50%;
+	float: right;
+	padding-right: 40px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#eventPage #sec1 .w50l h3{
+	font-size: 25px;
+	font-weight: normal;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+#eventPage #sec1 .w50l .text{
+	font-size: 16px;
+}
+#eventPage #sec1 .w50r .img{
+	padding-top: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#eventPage #sec1 .w50r .img .bx-wrapper{
+	margin-bottom: 0;
+}
+#eventPage #sec1 .w50r .img_thumbnail{
+	padding-top: 39px;
+}
+#eventPage #sec1 .w50r .img_thumbnail li{
+	cursor: pointer;
+	width: 33.33%;
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#eventPage #sec2{
+}
+#eventPage #sec2 h2{
+	padding-bottom: 30px;
+}
+#eventPage #sec2 .text{
+	padding-bottom: 22px;
+}
+#eventPage #sec3{
+	margin-top: 130px;
+}
+#eventPage #sec3 h2{
+	font-size: 40px;
+	font-weight: normal;
+	color: #60C0BD;
+}
+#eventPage #sec3 .table dl{
+	display: table;
+	width: 100%;
+}
+#eventPage #sec3 .table dl:last-child{
+	border-bottom: 1px solid #C9CACA;
+}
+#eventPage #sec3 .table dl dt{
+}
+#eventPage #sec3 .table dl dd{
+}
+#eventPage #sec3 table{
+	width: 100%;
+	max-width: 100%;
+}
+#eventPage #sec3 table,#eventPage #sec3 table tr,#eventPage #sec3 table td{
+	border: 1px solid #C9CACA;
+	
+}
+#eventPage #sec3 table>tbody>tr>td, #eventPage #sec3 table>tbody>tr>th, #eventPage #sec3 table>tfoot>tr>td, #eventPage #sec3 table>tfoot>tr>th, #eventPage #sec3 table>thead>tr>td, #eventPage #sec3 table>thead>tr>th{
+}
+#eventPage #sec3 table .left{
+	width: 20%;
+	font-size: 20px;
+	background: #D5EBDD;
+	white-space: nowrap;
+	padding-left: 25px;
+	font-weight: normal;
+}
+#eventPage #sec3 table .right{
+	padding: 25px 0 25px 25px;
+	font-size: 20px;
+	font-weight: normal;
+	word-break: break-all;
+}
+#eventPage #sec3 table .right a{
+	color: #000;
+}
+#eventPage #sec4{
+	margin-top: 70px;
+	padding-bottom: 88px;
+}
+#eventPage #sec4 h2{
+	font-size: 40px;
+	font-weight: normal;
+	color: #E0A9AC;
+	border-bottom: 1px solid #C9CACA;
+}
+#eventPage #sec4 .map{
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #C9CACA;
+}
+#eventPage footer{
+	background: #fff;
+}
+.event_con ~ #footer{
+	background: #fff !important
+}
+.ev_ttl{
+	font-size: 16px;
+	color: #5EB7B4;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.ev_ttl img{
+	margin-right: 10px;
+}
+.ev_ttl1{
+	color: #595757;
+	font-weight: bold;
+	font-size: 22px;
+}
+.ev_info{
+	max-width: inherit !important;
+}
+.ev_info .sub_ttl{
+	margin-top: 8px !important;
+}
+.max{
+	width: 100%;
+	max-width: 291px;
+}
+#eventpage .col3{
+	margin-bottom: 50px !important;
+}
+#eventpage h2{
+	text-align: left !important;
+	position: relative;
+	background: url(../images/event/h2_line.png) repeat-x left bottom;
+	padding-bottom: 7px;
+}
+#eventpage h2 span{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 30px;
+	font-weight: bold;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.ft{
+	background: #fff !important;
+}
+.con{
+	padding-bottom: 0 !important;
+}
+
+
+
+
+
+
+
+.hide_640{
+	display: block;
+}
+.show_640{
+	display: none;
+}
+@media screen and (max-width: 1200px){
+	#eventPage #sec1{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#eventPage #sec2{
+		padding: 0 15px;
+	}
+	#eventPage #sec3{
+		padding: 0 15px;
+	}
+	#eventPage #sec4{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#scheduleCont{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 992px) {
+	#coursedetailPage #sec1 h2 img{
+		width: 80px;
+	}
+	#coursedetailPage #sec1 h2 span{
+		display: inline;
+		margin-left: 20px;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 992px){
+	#coursedetailPage #sec1 .img{
+		display: block;
+		width: auto;
+		text-align: center;
+		padding-right: 0;
+	}
+	#coursedetailPage #sec1 .detail{
+		display: block;
+		width: auto;
+		margin-top: 15px;
+	}
+	#coursedetailPage #sec1 .detail .btn{
+		text-align: center;
+		margin-top: 15px;
+	}
+	#coursedetailPage #sec1 .detail h3{
+
+	}
+}
+@media screen and (max-width: 768px){
+	#coursedetailPage #sec1 .box{
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+}
+@media screen and (max-width: 767px){
+	#coursedetailPage #sec1 h2{
+		padding-top: 20px;
+	}
+	#coursePage .right{
+		float: none;
+		width: auto;
+		padding: 0 10px;
+	}
+	#coursedetailPage #sec1 .left{
+		float: none;
+		width: auto !important;
+		padding-left: 10px;
+		padding-right: 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#coursePage .left{
+		width: auto;
+		float: none;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#eventPage #sec1 h2{
+		font-size: 34px;
+	}
+	#eventPage #sec1 .w50r{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	#eventPage #sec1 .w50l{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	#eventPage #sec2{
+		padding: 20px 15px 0;
+	}
+	#eventPage #sec3{
+		padding: 0 10px;
+		margin-top: 70px;
+	}
+	#eventPage #sec3 h2{
+		font-size: 28px;
+	}
+	#eventPage #sec4{
+		padding: 0 10px;
+	}
+	#eventPage #sec4 h2{
+		font-size: 28px;
+	}
+	#eventPage #sec1 .tag {
+		padding-left: 5px;
+	}
+	#eventPage #sec1 .w50r .img_thumbnail{
+		padding-top: 25px;
+	}
+	#eventPage #sec1 .w50r .img_thumbnail li{
+		padding: 0 5px;
+	}
+	#eventPage #sec1 .w50r .img{
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 0;
+	}
+	#eventPage #sec1{
+		padding-top: 30px;
+	}
+	#eventPage #sec1 h2{
+		border-bottom: none;
+		padding-left: 5px;
+	}
+	#eventPage #sec1 .w50l h3{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+	#coursePage .left{
+		width: 70%;
+		float: left;
+		padding: 0 10px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	#coursePage .right{
+		float: right;
+	    width: 30%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 1200px){
+	#coursedetailPage #sec1 .left{
+		width: 70%;
+	}
+	#coursedetailPage #sec1 h2{
+		margin-left: 15px;
+	}
+	#coursedetailPage #sec1 .h3{
+		margin-left: 15px;
+	}
+	#coursePage #sec1 .map img{
+		width: 100%;
+	}
+	#coursedetailPage .right{
+		padding-top: 68px;
+	}
+	#coursePage .right ul{
+		max-width: 258px;
+	    margin: auto;
+	    padding: 45px 0 40px;
+	    padding-left: 11%;
+	}
+	#coursePage .right h2{
+		border-top: 2px dashed #666;
+    text-align: center;
+    padding: 6px 0 !important;
+	}
+	#coursePage .right .tag{
+		text-align: center;
+	}
+	#coursePage #container{
+		padding-bottom: 0;
+	}
+	#coursePage #sec1 .left .sub_content .fl img{
+		width: 100%;
+	}
+	#coursedetailPage #sec1 .detail h3{
+	}
+	#coursedetailPage #sec1 .detail{
+		padding-left: 15px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 768px) {
+	.mb0{
+		margin-bottom: 0 !important;
+	}
+	#coursedetailPage #container{
+		padding-bottom: 50px;
+	}
+}
+@media screen and (max-width: 767px){
+	.hide_767{
+		display: none !important;
+	}
+	.show_767{
+		display: block !important;
+	}
+	#coursePage #container, #coursedetailPage #container{
+		padding-top: 0;
+	}
+	#eventPage #sec3 table .left{
+		font-size: 16px;
+		padding: 10px;
+	}
+	#eventPage #sec3 table .right{
+		font-size: 16px;
+		padding: 10px;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	#coursePage #sec2 h2{
+		font-size: 28px;
+	}
+	#coursePage #sec2 h2 img{
+		width: 100px;
+		margin-right: 20px;
+	}
+	#coursedetailPage #sec1 h2 img{
+		width: 80px;
+		height: auto;
+	}
+	#coursedetailPage #sec1 h2 span{
+		margin-left: 10px;
+		margin-top: 0;
+		display: inline;
+	}
+	#coursedetailPage #sec1 h2{
+		padding-left: 0;
+		font-size: 25px;
+	}
+	#coursedetailPage #sec1 .detail h3{
+		margin-top: 30px;
+		font-size: 25px;
+	}
+	#coursedetailPage #sec1 .detail .text{
+		font-size: 14px;
+	}
+	#coursedetailPage #sec1 .detail .btn a{
+		display: block;
+		text-align: center;
+	}
+	#coursedetailPage #sec1 .img{
+		float: none;
+		width: 100%;
+		display: block;
+		padding-right: 0;
+	}
+	#coursedetailPage #sec1 .detail{
+		width: 100%;
+		display: block;
+	}
+	#coursedetailPage #sec1 .img img{
+		width: 100%;
+	}
+	#coursedetailPage #sec1 .left{
+		float: none;
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	#coursePage footer{
+		background: #fff;
+	}
+	#coursePage #container{
+		background: #fff;
+	}
+	#coursePage .chat_content h3{
+		margin-top: 25px;
+	}
+	#coursePage .chat_content .girl{
+		padding-left: 0;
+	}
+	#coursePage .chat_content .chatbox{
+		margin-top: 0;
+		font-size: 14px;
+		width: 74%;
+	}
+	#coursePage .chat_content .chatbox2{
+		width: 74%;
+	}
+	#coursePage .chat_content .ttl{
+		margin-left: 0;
+	}
+	.hide_640{
+		display: none;
+	}
+	.show_640{
+		display: block;
+	}
+	#coursePage .left{
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#coursePage #sec1 h2{
+		border-radius: 0px;
+		margin-left: -3%;
+		margin-right: -3%;
+	}
+	#coursePage #sec1 .left .sub_content .fl{
+		float: none;
+		width: 100%;
+	}
+	#coursePage #sec1 .left .sub_content .fl img{
+		width: 100%;
+	}
+	#coursePage #sec1 .left .sub_content .fr{
+		width: 100%;
+		float: none;
+		margin-top: 50px;
+	}
+	#coursePage #sec1 .left .sub_content .fr .list_ttl{
+		margin-left: 0;
+	}
+	/* #coursePage #sec1 .left .sub_content .fr .list_ttl > li span{
+		font-size: 32px;
+	} */
+	#coursePage #sec1 .left .sub_content .fr .list_ttl > li:after{
+		top: 39px;
+	}
+	#coursePage #sec1 .left .sub_content .fr .list_ttl > li ul li{
+		font-size: 18px;
+		background: url(../images/course/down_chevron.png) center left 5% no-repeat;
+	}
+	#coursePage #sec1 .map{
+		margin-left: -3%;
+		margin-right: -3%;
+		background: url(../images/course/map_bg.jpg) repeat top ;
+	}
+	#coursePage #sec2 .text{
+		padding-left: 0; 
+		padding-bottom: 0;
+		font-size: 14px;
+	}
+	#coursePage #sec3{
+		padding-top: 30px;
+	}
+	#coursePage #sec3 .fr{
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	#coursePage #sec3 .fl{
+		float: none;
+		width: 100%;
+	}
+	#coursePage #sec3 .fl .img-res{
+		display: block;
+		width: 100%;
+		max-width: none;
+		margin: auto;
+		padding-top: 20px;
+	}
+	#coursePage .sep{
+		margin: 58px 0 30px;
+	}
+	#coursePage .sep:after, #coursePage .sep:before{
+		width: 29%;
+	}
+	#coursePage .l{
+		float: none;
+		width: 100%;
+	}
+	#coursePage .r{
+		width: 100%;
+		float: none;
+	}
+	#coursePage .btn2{
+		margin-top: 15px;
+	}
+	#coursePage .right{
+		float: none;
+		width: 100%;
+		padding-left: 0;
+	}
+	#coursePage .right ul{
+		max-width: 258px;
+		margin: auto;
+		padding: 45px 0 40px;
+		padding-left: 11%;
+	}
+	#coursePage .right h2{
+		border-top: 2px dashed #666;
+		text-align: center;
+		padding: 6px 0 !important;
+	}
+	#coursePage .right .tag{
+		text-align: center;
+	}
+	#coursePage #sec1 .map .btn{
+		bottom: -15px;
+	}
+	#coursedetailPage #sec1 .detail .btn{
+		margin-top: 15px;
+	}
+	#eventPage #sec2 h2 img{
+
+	}
+	#schedulePage #container{
+		background: #fff !important;
+		padding-top: 30px !important;
+	}
+	.ev_info{
+		text-align: left !important;
+	}
+	.ev_info .sub_ttl{
+		max-width: initial !important;
+
+	}
+	.ev_info .desc{
+		max-width: initial !important;
+	}
+	#eventpage .col3{
+		margin-bottom: 46px !important;
+	}
+	#sec2 h2 img{
+		width: 160px;
+	}
+	#sec2 h2 img.w80px{
+		width: 80px !important;
+	}
+	#eventpage h2 span{
+		font-size: 25px;
+		display: inline !important;
+		position: initial;
+		padding-left: 15px;
+	}
+	#eventpage .col3{
+		padding-left: 0 !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	#coursePage #sec2 h2{
+		font-size: 24px;
+	}
+	#coursedetailPage #sec1 h2 img{
+		width: 100px;
+	}
+	#coursedetailPage #sec1 h2 span{
+		display: inline-block;
+	}
+	.show_400{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 353px){
+	#eventPage #sec1 .w50l h3{
+		font-size: 17px;
+	}
+	#eventpage h2 span{
+		font-size: 23px;
+	}
+}
+@media screen and (max-width: 336px) {
+	#coursePage #sec1 .left .sub_content .fr .list_ttl > li{
+		padding-left: 0;
+	}
+	#coursePage #sec1 .left .sub_content .fr .list_ttl > li ul li{
+		padding-left: 30px;
+		background: url(../../images/course/down_chevron.png) center left 2% no-repeat;
+	}
+}
+@media screen and (max-width: 320px){
+	.show_400{
+		display: none;
+	}
+	#coursedetailPage #sec1 h2 img{
+		width: 60px;
+	}
+	#coursedetailPage #sec1 h2{
+		font-size: 18px;
+	}
+	#coursedetailPage #sec1 .detail .btn a{
+		padding: 10px 15px;
+	}
+}
+@media screen and (max-width: 549px){
+	.link_br{
+		display: block !important;
+	}
+}
+@media screen and (max-width: 442px){
+	.link_br2{
+		display: block !important;
+	}
+}
+.scale{
+	width: 800px !important;
+	max-width: none !important;
+}
